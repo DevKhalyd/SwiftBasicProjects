@@ -13,6 +13,7 @@
 		B75DF3FA27F89FC500CF1328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75DF3F927F89FC500CF1328 /* Preview Assets.xcassets */; };
 		B792E1CD27F8BF7D004EC493 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B792E1CC27F8BF7D004EC493 /* README.md */; };
 		B792E1D027F8C834004EC493 /* TextIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792E1CF27F8C834004EC493 /* TextIcon.swift */; };
+		B7DA118A27F907E500765945 /* ButtonIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA118927F907E400765945 /* ButtonIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B75DF3F927F89FC500CF1328 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B792E1CC27F8BF7D004EC493 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B792E1CF27F8C834004EC493 /* TextIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextIcon.swift; sourceTree = "<group>"; };
+		B7DA118927F907E400765945 /* ButtonIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				B792E1CF27F8C834004EC493 /* TextIcon.swift */,
+				B7DA118927F907E400765945 /* ButtonIcon.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7DA118A27F907E500765945 /* ButtonIcon.swift in Sources */,
 				B75DF3F527F89FC300CF1328 /* ContentView.swift in Sources */,
 				B792E1D027F8C834004EC493 /* TextIcon.swift in Sources */,
 				B75DF3F327F89FC300CF1328 /* RoackPaperScissorsApp.swift in Sources */,
